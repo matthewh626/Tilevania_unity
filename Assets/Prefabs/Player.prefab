@@ -215,4 +215,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 15
-  jumpSpeed: 60
+  jumpSpeed: 30
+  climbSpeed: 5
