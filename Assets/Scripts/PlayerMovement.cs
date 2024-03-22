@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
+    Vector2 deathKick = new Vector2(25, 25);
+    bool alive = true;
     // Start is called before the first frame update
 
     void Start()
@@ -26,13 +28,14 @@ public class PlayerMovement : MonoBehaviour
 
     void OnMove(InputValue input)
     {
+        if (!alive) { return; }
         moveInput = input.Get<Vector2>();
         Debug.Log(moveInput);
     }
 
     void OnJump(InputValue input)
     {
-       
+        if (!alive) { return; }
         if (myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) )
         {
             myRigidBody.velocity += Vector2.up * jumpSpeed;
@@ -70,12 +73,37 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector2(direction, 1f);
         }
     }
-    // Update is called once per frame
+    void Die()
+    {
+       
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        {
+            myAnimator.SetTrigger("Dead");
+            myRigidBody.velocity = deathKick;
+            alive = false;
+        }
+        if(!alive)
+        {
+            if (myRigidBody.velocity == Vector2.zero) {
+                myAnimator.Play("Splat");
+                myAnimator.SetBool("Moving", false);
+            }
+            else {
+                myAnimator.SetBool("Moving", true);
+            }
 
+            
+        }
+           
+    }
+    // Update is called once per frame
     void Update()
     {
+        Die();
+        if (!alive) { return; }
         Run();
         ClimbLadder();
         FlipSprite();
+        
     }
 }
