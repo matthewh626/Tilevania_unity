@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 662568506f7b84273aad372470827048
+guid: 72889d64d4f694bb0b8b24ed55df76aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,11 +136,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Waterfall 32x32_0
+      name: Enemy_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 36
+        x: 11
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -150,18 +150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3662feb834df4f8086b50f4e01c0dcc
-      internalID: 1507628621
+      spriteID: e5b7dea224072478b8df435ddc40326a
+      internalID: -1639826818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waterfall 32x32_1
+      name: Enemy_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 36
+        x: 49
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -171,18 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e56e1df8c0e7a42b39abbfea16f7d25a
-      internalID: -1581731972
+      spriteID: 1f43ea042de4a4b24a7772565fbde1cb
+      internalID: 315943598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waterfall 32x32_2
+      name: Enemy_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 36
+        x: 87
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -192,18 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8eea978aea1b48fab7bd55e679c705a
-      internalID: 35865576
+      spriteID: e4d861704267240b8b87a5eae7f7add0
+      internalID: -1242383212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waterfall 32x32_3
+      name: Enemy_3
       rect:
         serializedVersion: 2
-        x: 104
-        y: 36
+        x: 125
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -213,18 +213,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd6991c9945794ee78b60dd3f4d75252
-      internalID: -1912900790
+      spriteID: 9128fd12076b64efb9f09d9868984420
+      internalID: -2116382812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waterfall 32x32_4
+      name: Enemy_4
       rect:
         serializedVersion: 2
-        x: 138
-        y: 36
+        x: 163
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -234,18 +234,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d24c86de3c447a9b31eb01c0f4dcff
-      internalID: 70078268
+      spriteID: 771d40542650646ba8b97a5f02919fdc
+      internalID: 1207323379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Waterfall 32x32_5
+      name: Enemy_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
+        x: 201
+        y: 7
         width: 32
         height: 32
       alignment: 0
@@ -255,92 +255,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3402e7559dba94ac09d4c5ba47485873
-      internalID: -471387318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Waterfall 32x32_6
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 2
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c40e48edabf274f67bfcd535e159c8d6
-      internalID: 1522013531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Waterfall 32x32_7
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 2
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c94a6b5f4eaa457cb3d87229e351d2c
-      internalID: 1449728095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Waterfall 32x32_8
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 2
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 004cb78d7345d48f9803b53188cca0cb
-      internalID: -452271790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Waterfall 32x32_9
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 2
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce88bfc1efc8049e7a9851de920ca99c
-      internalID: -25791952
+      spriteID: 9673a6483aeb646818cc7ca13e596462
+      internalID: -681974768
       vertices: []
       indices: 
       edges: []
@@ -356,16 +272,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Waterfall 32x32_0: 1507628621
-      Waterfall 32x32_1: -1581731972
-      Waterfall 32x32_2: 35865576
-      Waterfall 32x32_3: -1912900790
-      Waterfall 32x32_4: 70078268
-      Waterfall 32x32_5: -471387318
-      Waterfall 32x32_6: 1522013531
-      Waterfall 32x32_7: 1449728095
-      Waterfall 32x32_8: -452271790
-      Waterfall 32x32_9: -25791952
+      Enemy_0: -1639826818
+      Enemy_1: 315943598
+      Enemy_2: -1242383212
+      Enemy_3: -2116382812
+      Enemy_4: 1207323379
+      Enemy_5: -681974768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
